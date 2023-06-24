@@ -1,0 +1,53 @@
+body{
+    text-align: center;
+    background: rgb(15,0,255);
+background: linear-gradient(90deg, rgba(15,0,255,1) 0%, rgba(0,0,143,1) 30%, rgba(255,214,0,1) 100%);
+}
+#inicio{
+    margin-top: 40px;
+    padding: 30px;
+    }
+#perfil{
+    width: 400px;
+    border-radius: 100px;
+}
+#name{
+    color: darkblue;
+    font-size: 40px;
+} 
+h3,h2{
+    color: white;
+}
+.historia{
+    margin: 30px;
+    margin-top: 100px;
+    text-align: center;
+}
+.historia p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.menu{
+    position: fixed;
+    background: rgb(255,0,0);
+background: linear-gradient(90deg, rgba(255,0,0,1) 14%, rgba(255,214,0,1) 56%);
+    width: 100%;
+    margin-top: 0;
+    top: 0;
+    z-index: 10;
+}
+.link{
+    display: inline;
+    padding: 20px;
+    font-size: 22px;
+}
+.link:hover{
+    text-decoration: underline;
+}
+a {
+    text-decoration: none;
+}
+#video,#empresa,#mapa{
+    margin-top: 50px;
+}
