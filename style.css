@@ -2,6 +2,8 @@ body{
     text-align: center;
     background: rgb(15,0,255);
 background: linear-gradient(90deg, rgba(15,0,255,1) 0%, rgba(0,0,143,1) 30%, rgba(255,214,0,1) 100%);
+background-size:cover ;
+background-position: center;
 }
 #inicio{
     margin-top: 40px;
@@ -28,14 +30,15 @@ h3,h2{
     font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
-.menu{
-    position: fixed;
+.my_nav_bar{
+    position:sticky;
     background: rgb(255,0,0);
 background: linear-gradient(90deg, rgba(255,0,0,1) 14%, rgba(255,214,0,1) 56%);
     width: 100%;
-    margin-top: 0;
+    
     top: 0;
-    z-index: 10;
+    z-index: 100;
+    
 }
 .link{
     display: inline;
@@ -50,4 +53,5 @@ a {
 }
 #video,#empresa,#mapa{
     margin-top: 50px;
+    width: 80%;
 }
